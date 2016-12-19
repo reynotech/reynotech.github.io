@@ -263,10 +263,13 @@ header .navbar-default .navbar-nav li a:hover {
   color: #8d8f92;
   margin-bottom: 20px;
 }
-#feature .btn-view-works {
+.btn-view-works {
   background: #032260;
   color: #fff;
   padding: 10px 20px;
+}
+.btn-view-works:hover{
+  color:#fff;
 }
 /*--
 	content Start
@@ -803,4 +806,32 @@ footer .footer-manu ul li a {
 }
 footer .footer-manu ul li a:hover {
   color: #000;
+}
+
+.wrapper_404 h1 {
+  font-size: 200px;
+  color: #A4C43E;
+  line-height: 1;
+}
+.wrapper_404 h2 {
+  font-size: 50px;
+  margin-top: 0;
+  color:#032260;
+}
+.wrapper_404 .btn-home {
+  background: #414141;
+  border: none;
+  color: #fff;
+  padding: 20px 35px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-size: 13px;
+  line-height: 1em;
+  text-transform: uppercase;
+  letter-spacing: normal;
+  border-radius: 0;
+}
+
+.moduler {
+  padding: 140px 0;
 }
