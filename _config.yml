@@ -14,14 +14,15 @@ keep_files:
 
 
 # Site settings
-title: Airspace
+title: ReynoTech
 subtitle: "A free HTML5 agency template"
 # Base URL of site. It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 # baseurl: "/" # the subpath of your site
 url: "http://luminousrubyist.github.io" # the base hostname & protocol for your site
-baseurl: "/airspace-jekyll"
+baseurl: ""
+baseurllinking: "/"
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
 
@@ -38,3 +39,15 @@ descriptions:
 
   - cat: dummy
     desc: "Just some placeholder posts, lorem ipsum and the rest."
+
+collections:
+  proyectos:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: proyectos
+    values:
+      layout: portfolio

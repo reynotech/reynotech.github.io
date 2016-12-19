@@ -150,6 +150,19 @@ px      68    160    252    344    436    528    620    712    */
 					contact close 
 -----------------------------------------------*/
   /*------------------*/
+
+  header .navbar-default .navbar-brand img {
+    height: 28px;
+  }
+
+  header .navbar-brand {
+    padding-top: 23px;
+  }
+
+  header .navbar-default .navbar-nav li a {
+    padding: 26px 14px;
+  }
+
 }
 /*		Mobile Layout: 320px.
 		Gutters: 24px.
@@ -172,8 +185,8 @@ px      68    160    252    */
     font-size: 13px;
   }
   header .navbar-default .navbar-toggle {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 23px;
+    margin-bottom: 23px;
   }
   #slider {
     padding-top: 90px;
@@ -386,6 +399,31 @@ px      68    160    252    */
   footer .footer-manu {
     display: none;
   }
+
+  header .navbar-default .navbar-brand img {
+    height: 33px;
+  }
+
+  header .navbar-brand {
+    padding-top: 24px;
+  }
+
+  header .navbar-default .navbar-nav li a {
+    padding: 17px 26px;
+  }
+
+  /*#feature:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #bdbdbd;
+    opacity: 0.4;
+  }*/
 }
 /*		Wide Mobile Layout: 480px.
 		Gutters: 24px.

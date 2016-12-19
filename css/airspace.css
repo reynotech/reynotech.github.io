@@ -66,29 +66,28 @@ a:active {
 --*/
 header {
   background: #fff;
-  padding: 20px 0;
 }
 header .navbar {
   margin-bottom: 0px;
   border: 0px;
 }
 header .navbar-brand {
-  padding-top: 5px;
+  padding-top: 16px;
 }
 header .navbar-default {
   background: none;
   border: 0px;
 }
-header .navbar-default .navbar-nav {
-  padding-top: 10px;
+header .navbar-default .navbar-brand img {
+  height: 45px;
 }
 header .navbar-default .navbar-nav li a {
-  color: #333333;
-  padding: 10px 26px;
+  color: #032260;
+  padding: 29px 26px;
   font-size: 15px;
 }
-font header .navbar-default .navbar-nav li a:hover {
-  color: #000;
+header .navbar-default .navbar-nav li a:hover {
+  color: #032260;
 }
 /*---------------------------------------------
 					Index Start
@@ -113,8 +112,8 @@ font header .navbar-default .navbar-nav li a:hover {
   right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, #8b86a3, #322e40);
-  opacity: 0.8;
+  background: linear-gradient(to left, #f0ffc1, #A4C43E);
+  opacity: 0.7;
 }
 #slider .block {
   color: #E3E3E4;
@@ -126,6 +125,8 @@ font header .navbar-default .navbar-nav li a:hover {
   line-height: 60px;
   letter-spacing: 10px;
   padding-bottom: 45px;
+  color: #032260;
+  text-transform: capitalize;
 }
 #slider .block p {
   font-size: 23px;
@@ -133,6 +134,7 @@ font header .navbar-default .navbar-nav li a:hover {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
+  color:#7A7877;
 }
 /*--
 	wrapper Start
@@ -171,12 +173,12 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #service .service-item i {
   font-size: 60px;
-  color: #4A4656;
+  color: #A4C43E;
 }
 #service .service-item h4 {
   padding-top: 20px;
   margin: 0;
-  color: #666;
+  color: #032260;
 }
 #service .service-item p {
   color: #888;
@@ -206,7 +208,7 @@ font header .navbar-default .navbar-nav li a:hover {
   bottom: 0;
   width: 100%;
   height: 100%;
-  background: #1d192c;
+  background: #032260;
   opacity: 0.8;
 }
 #call-to-action h2 {
@@ -262,7 +264,7 @@ font header .navbar-default .navbar-nav li a:hover {
   margin-bottom: 20px;
 }
 #feature .btn-view-works {
-  background: #655E7A;
+  background: #032260;
   color: #fff;
   padding: 10px 20px;
 }
@@ -374,13 +376,12 @@ font header .navbar-default .navbar-nav li a:hover {
   right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, #928dab, #1f1c2c 70%);
-  opacity: 0.8;
+  background: linear-gradient(to left, #f0ffc1, #A4C43E 70%);
+  opacity: 0.7;
 }
 #global-header .block {
   color: #E3E3E4;
   margin: 0 auto;
-  padding-left: 90px;
   text-align: center;
 }
 #global-header .block h1 {
@@ -390,12 +391,14 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-bottom: 15px;
   margin-top: 0;
   text-transform: capitalize;
+  color: #032260;
 }
 #global-header .block p {
   font-size: 16px;
   font-weight: 300;
   letter-spacing: 1px;
   word-spacing: 3px;
+  color:#7A7877;
 }
 /*--
 	portfolio-work Start
@@ -776,8 +779,7 @@ font header .navbar-default .navbar-nav li a:hover {
 footer {
   background: #F5F5F5;
   text-align: center;
-  padding-top: 48px;
-  padding-bottom: 55px;
+  padding: 48px 0;
 }
 footer p {
   font-size: 13px;
@@ -786,9 +788,6 @@ footer p {
 }
 footer a {
   color: #595959;
-}
-footer .footer-manu {
-  padding-bottom: 25px;
 }
 footer .footer-manu ul {
   margin: 0px;

@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<!-- Slider Start -->
+<section id="global-header"{% if page.project_hero %} style="background: url({{page.project_hero}}) no-repeat"{% endif %}>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h1>{{page.project_title}}</h1>
+                    <p>{{page.project_short}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ content }}
+<!-- Call to action Start -->
+<section id="call-to-action">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h2>We design delightful digital experiences.</h2>
+          <p>Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design.</p>
+          <a class="btn btn-default btn-call-to-action" href="{{ site.baseurl }}/contacto" >Contactanos</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
